@@ -14,8 +14,9 @@ public:
         
         for(int i = 0; i < min; i++){
             for(int j = 0; j < strs.size(); j++){
-                if(strs[j][i] != str[i])
+                if(strs[j][i] != str[i]){
                     return str.substr(0, count);
+                }
             }
             count++;
         }

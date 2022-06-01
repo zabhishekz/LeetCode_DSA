@@ -11,6 +11,6 @@ public:
             }
             m[nums[i]] = i;
         }
-    return {};
+        return {};
     }
 };

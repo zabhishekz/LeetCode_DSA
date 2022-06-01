@@ -26,9 +26,8 @@ public:
             if (temp1 != NULL) temp1 = temp1->next;
             if (temp2 != NULL) temp2 = temp2->next;
         }
-        if (c > 0) {
+        if (c > 0)
             temp3->next = new ListNode(c);
-        }
         return l3->next;
     }
 };
