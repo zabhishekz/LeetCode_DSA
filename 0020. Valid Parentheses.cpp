@@ -25,6 +25,7 @@ public:
                 sta.pop();
             }
         }
+        
         return sta.empty();
     }
 };

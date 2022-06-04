@@ -17,6 +17,7 @@ public:
         if(list2 == NULL){
             return list1;
         }
+        
         ListNode * c;
         if(list1->val <= list2->val){
             c = list1;

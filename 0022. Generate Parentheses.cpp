@@ -7,14 +7,10 @@ public:
             return;
         }
         if(open < n){
-            out.push_back('(');
-            generaterec(out,n,open+1,close);
-            out.pop_back();
+            generaterec(out+'(',n,open+1,close);
         }
         if(close < open){
-            out.push_back(')');
-            generaterec(out,n,open,close+1);
-            out.pop_back();
+            generaterec(out+')',n,open,close+1);
         }
         return;
     }
