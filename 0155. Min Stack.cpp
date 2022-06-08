@@ -2,7 +2,6 @@ class MinStack {
 public:
     vector<pair<int,int>> v;
     MinStack() {
-        
     }
     
     void push(int val) {

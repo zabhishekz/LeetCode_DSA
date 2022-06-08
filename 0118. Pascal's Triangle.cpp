@@ -13,6 +13,7 @@ public:
                     v[j] = res[i-1][j-1] + res[i-1][j];
                 }
             }
+            
             res.push_back(v);
         }
         return res;

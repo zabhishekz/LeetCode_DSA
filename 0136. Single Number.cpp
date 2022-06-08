@@ -5,6 +5,7 @@ public:
         for(auto a :nums){
             ans = ans^a;
         }
+        
         return ans;
     }
 };
